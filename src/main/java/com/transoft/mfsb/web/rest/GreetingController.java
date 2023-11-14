@@ -15,6 +15,6 @@ public class GreetingController {
     public ResponseEntity<String> getGreeting(){
         HttpHeaders headers = new HttpHeaders();
         headers.add("Custom-Header", "Custom Value Header");
-        return new ResponseEntity<>("Hello World from Spring Boot", headers, HttpStatus.OK);
+        return new ResponseEntity<>("Hello World from Spring Boot!", headers, HttpStatus.OK);
     }
 }
