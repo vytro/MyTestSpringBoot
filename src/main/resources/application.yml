@@ -12,6 +12,7 @@ spring:
     driver-class-name: org.h2.Driver
     #new added
     url: jdbc:h2:file:~/test
+    #C:\Users\bryan\test.mv.db file
   h2:
     console:
       enabled: true
